@@ -58,4 +58,4 @@ cleanData <- aggregate(finalData, by=list(activityID=finalData$activityID, subje
 cleanData[,1] <- NULL
 cleanData[,3] <- NULL
 
-head(cleanData)
+write.table(cleanData, file="tidyData.txt", row.names=FALSE)
