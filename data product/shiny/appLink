@@ -1,1 +1,10 @@
 Link: https://madanmaun.shinyapps.io/shiny/
+
+# Test case:
+You can use following entires to test shiny apps 
+Trip Distance in mile = 1000
+Gas Price per Gallon = 1.44
+Estimated Cost in $ = 60
+
+It will calculate reguired amount of gas in gallon for estimated cost, required car's efficieny, and suggest car models
+for a road trip.
